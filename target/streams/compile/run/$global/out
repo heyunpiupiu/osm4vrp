@@ -1,0 +1,3 @@
+[0m[[0minfo[0m] [0mRunning laas.fspex.Main extract /Users/administrateur/OpenData/graph_toulouse/Toulouse.osm 15 /Users/administrateur/OpenData/graph_toulouse/model1.txt[0m
+[0m[[0minfo[0m] [0m[FSPEX]  Parsing OSM XML into nodes and roads...[0m
+[0m[[0minfo[0m] [0m[FSPEX]  OSM XML parsing complete. (took 6 344 ms)[0m
