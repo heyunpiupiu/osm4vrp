@@ -9,14 +9,14 @@ package laas.fspex.model
 sealed abstract class VertexType
 
 case object StationVertex extends VertexType {
-  def apply(location:Location,name:String) = Vertex(location,name,StationVertex)
+  def apply(location:Location,name:String) = Vertex(location,name,StationVertex,0)
 }
 
 case object StreetVertex extends VertexType {
-  def apply(location:Location,name:String) = Vertex(location,name,StreetVertex)
+  def apply(location:Location,name:String) = Vertex(location,name,StreetVertex,0)
 }
 
-case class Vertex(location:Location, name:String, vertexType:VertexType) {
+case class Vertex(location:Location, name:String, vertexType:VertexType,var used:Int) {
   override
   def toString = {
     s"V($name,$location)"
@@ -31,5 +31,6 @@ case class Vertex(location:Location, name:String, vertexType:VertexType) {
       case that: Vertex => this.location == that.location
       case _ => false
     }
+
 }
 

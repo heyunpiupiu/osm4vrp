@@ -30,11 +30,16 @@ object Main {
 
     val call =
       args(0) match {
+
         case "extract" =>
           val configPath = args(1)
           val numb=args(2).toInt
           val save=args(3)
-          () => OsmParser.vrp(configPath,numb,save)
+          () => OsmParser.vrp(configPath,save,numb)
+
+        case "vrp" =>
+          val configPath = args(1)
+          () => println("ToDo")
 
         case s =>
           Logger.error(s"Unknown subcommand $s")

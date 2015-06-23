@@ -1,20 +1,20 @@
 [0m[[0mdebug[0m] [0m[0m
 [0m[[0mdebug[0m] [0mInitial source changes: [0m
 [0m[[0mdebug[0m] [0m	removed:Set()[0m
-[0m[[0mdebug[0m] [0m	added: Set(/Users/administrateur/VRP/osm4vrp/src/main/scala/laas/fspex/Main.scala, /Users/administrateur/VRP/osm4vrp/src/main/scala/laas/fspex/model/Node.scala, /Users/administrateur/VRP/osm4vrp/src/main/scala/laas/fspex/model/Poi.scala, /Users/administrateur/VRP/osm4vrp/src/main/scala/laas/fspex/model/Time.scala, /Users/administrateur/VRP/osm4vrp/src/main/scala/laas/fspex/utils/Logger.scala, /Users/administrateur/VRP/osm4vrp/src/main/scala/laas/fspex/parser/OsmParser.scala, /Users/administrateur/VRP/osm4vrp/src/main/scala/laas/fspex/model/Location.scala, /Users/administrateur/VRP/osm4vrp/src/main/scala/laas/fspex/model/Speeds.scala, /Users/administrateur/VRP/osm4vrp/src/main/scala/laas/fspex/model/Vertex.scala, /Users/administrateur/VRP/osm4vrp/src/main/scala/laas/fspex/model/Transitmode.scala, /Users/administrateur/VRP/osm4vrp/src/main/scala/laas/fspex/model/Road.scala, /Users/administrateur/VRP/osm4vrp/src/main/scala/laas/fspex/model/Projection.scala, /Users/administrateur/VRP/osm4vrp/src/main/scala/laas/fspex/parser/OsmWayInfo.scala)[0m
-[0m[[0mdebug[0m] [0m	modified: Set()[0m
+[0m[[0mdebug[0m] [0m	added: Set()[0m
+[0m[[0mdebug[0m] [0m	modified: Set(/Users/administrateur/VRP/osm4vrp/src/main/scala/laas/fspex/parser/OsmWayInfo.scala)[0m
 [0m[[0mdebug[0m] [0mRemoved products: Set()[0m
 [0m[[0mdebug[0m] [0mModified external sources: Set()[0m
 [0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
-[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(/Users/administrateur/VRP/osm4vrp/src/main/scala/laas/fspex/Main.scala, /Users/administrateur/VRP/osm4vrp/src/main/scala/laas/fspex/model/Node.scala, /Users/administrateur/VRP/osm4vrp/src/main/scala/laas/fspex/model/Poi.scala, /Users/administrateur/VRP/osm4vrp/src/main/scala/laas/fspex/model/Time.scala, /Users/administrateur/VRP/osm4vrp/src/main/scala/laas/fspex/utils/Logger.scala, /Users/administrateur/VRP/osm4vrp/src/main/scala/laas/fspex/parser/OsmParser.scala, /Users/administrateur/VRP/osm4vrp/src/main/scala/laas/fspex/model/Location.scala, /Users/administrateur/VRP/osm4vrp/src/main/scala/laas/fspex/model/Speeds.scala, /Users/administrateur/VRP/osm4vrp/src/main/scala/laas/fspex/model/Vertex.scala, /Users/administrateur/VRP/osm4vrp/src/main/scala/laas/fspex/model/Transitmode.scala, /Users/administrateur/VRP/osm4vrp/src/main/scala/laas/fspex/model/Road.scala, /Users/administrateur/VRP/osm4vrp/src/main/scala/laas/fspex/model/Projection.scala, /Users/administrateur/VRP/osm4vrp/src/main/scala/laas/fspex/parser/OsmWayInfo.scala)[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(/Users/administrateur/VRP/osm4vrp/src/main/scala/laas/fspex/parser/OsmWayInfo.scala)[0m
 [0m[[0mdebug[0m] [0m[0m
 [0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
 [0m[[0mdebug[0m] [0m	product: Set()[0m
 [0m[[0mdebug[0m] [0m	binary dep: Set()[0m
 [0m[[0mdebug[0m] [0m	external source: Set()[0m
-[0m[[0mdebug[0m] [0mInitially invalidated: Set(/Users/administrateur/VRP/osm4vrp/src/main/scala/laas/fspex/Main.scala, /Users/administrateur/VRP/osm4vrp/src/main/scala/laas/fspex/model/Node.scala, /Users/administrateur/VRP/osm4vrp/src/main/scala/laas/fspex/model/Poi.scala, /Users/administrateur/VRP/osm4vrp/src/main/scala/laas/fspex/model/Time.scala, /Users/administrateur/VRP/osm4vrp/src/main/scala/laas/fspex/utils/Logger.scala, /Users/administrateur/VRP/osm4vrp/src/main/scala/laas/fspex/parser/OsmParser.scala, /Users/administrateur/VRP/osm4vrp/src/main/scala/laas/fspex/model/Location.scala, /Users/administrateur/VRP/osm4vrp/src/main/scala/laas/fspex/model/Speeds.scala, /Users/administrateur/VRP/osm4vrp/src/main/scala/laas/fspex/model/Vertex.scala, /Users/administrateur/VRP/osm4vrp/src/main/scala/laas/fspex/model/Transitmode.scala, /Users/administrateur/VRP/osm4vrp/src/main/scala/laas/fspex/model/Road.scala, /Users/administrateur/VRP/osm4vrp/src/main/scala/laas/fspex/model/Projection.scala, /Users/administrateur/VRP/osm4vrp/src/main/scala/laas/fspex/parser/OsmWayInfo.scala)[0m
-[0m[[0minfo[0m] [0mCompiling 13 Scala sources to /Users/administrateur/VRP/osm4vrp/target/scala-2.10/classes...[0m
-[0m[[0mdebug[0m] [0mRunning cached compiler 52663c1b, interfacing (CompilerInterface) with Scala compiler version 2.10.3[0m
+[0m[[0mdebug[0m] [0mInitially invalidated: Set(/Users/administrateur/VRP/osm4vrp/src/main/scala/laas/fspex/parser/OsmWayInfo.scala)[0m
+[0m[[0minfo[0m] [0mCompiling 1 Scala source to /Users/administrateur/VRP/osm4vrp/target/scala-2.10/classes...[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 386d5f3d, interfacing (CompilerInterface) with Scala compiler version 2.10.3[0m
 [0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
 [0m[[0mdebug[0m] [0m	-deprecation[0m
 [0m[[0mdebug[0m] [0m	-unchecked[0m
@@ -31,6 +31,6 @@
 [0m[[0mdebug[0m] [0m	/Library/Java/JavaVirtualMachines/jdk1.7.0_71.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_71.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_71.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_71.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_71.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_71.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_71.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_71.jdk/Contents/Home/jre/classes:/Users/administrateur/.sbt/0.12.0/boot/scala-2.10.3/lib/scala-library.jar[0m
 [0m[[0mdebug[0m] [0m	-classpath[0m
 [0m[[0mdebug[0m] [0m	/Users/administrateur/VRP/osm4vrp/target/scala-2.10/classes[0m
-[0m[[0mdebug[0m] [0mScala compilation took 20.180846 s[0m
+[0m[[0mdebug[0m] [0mScala compilation took 7.767434 s[0m
 [0m[[0mdebug[0m] [0m	Invalidated direct: Set()[0m
 [0m[[0mdebug[0m] [0mIncrementally invalidated: Set()[0m
