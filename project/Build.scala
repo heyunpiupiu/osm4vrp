@@ -45,7 +45,7 @@ object FSPExBuild extends Build {
 
       mainClass := Some("laas.fspex.Main"),
 
-      javaOptions in (Compile,run) ++= Seq("-Xmx3G"),
+      javaOptions in (Compile,run) ++= Seq("-Xmx6G"),
 
       /*libraryDependencies ++= Seq(
         "org.scalatest" %% "scalatest" % "2.0.M5b" % "test",

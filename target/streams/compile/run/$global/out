@@ -1,73 +1,66 @@
 [0m[[0minfo[0m] [0mRunning laas.fspex.Main extract /Users/administrateur/OpenData/graph_toulouse/Toulouse.osm 10 /Users/administrateur/OpenData/graph_toulouse/model1.txt[0m
 [0m[[0minfo[0m] [0m[FSPEX]  Parsing OSM XML into nodes and roads...[0m
-[0m[[0minfo[0m] [0m[FSPEX]  OSM XML parsing complete. (took 5 643 ms)[0m
-[0m[[0minfo[0m] [0mgraph with: 70349 nodes and 92354 edges.[0m
-[0m[[0minfo[0m] [0m251335164[0m
-[0m[[0minfo[0m] [0m335539334[0m
-[0m[[0minfo[0m] [0m244988174[0m
-[0m[[0minfo[0m] [0m287216349[0m
-[0m[[0minfo[0m] [0m371853535[0m
-[0m[[0minfo[0m] [0m338481410[0m
-[0m[[0minfo[0m] [0m1839894937[0m
-[0m[[0minfo[0m] [0m251349393[0m
-[0m[[0minfo[0m] [0m1048381556[0m
-[0m[[0minfo[0m] [0m246678155[0m
-[0m[[0minfo[0m] [0m245967695[0m
-[0m[[0minfo[0m] [0m335784815[0m
-[0m[[0minfo[0m] [0m247689983[0m
-[0m[[0minfo[0m] [0m338171365[0m
-[0m[[0minfo[0m] [0m255072286[0m
-[0m[[0minfo[0m] [0m338510924[0m
-[0m[[0minfo[0m] [0m270131769[0m
-[0m[[0minfo[0m] [0m27533176[0m
-[0m[[0minfo[0m] [0m252809814[0m
-[0m[[0minfo[0m] [0m175711348[0m
-[0m[[0minfo[0m] [0m344239236[0m
-[0m[[0minfo[0m] [0m349433929[0m
-[0m[[0minfo[0m] [0m349434342[0m
-[0m[[0minfo[0m] [0m336086316[0m
-[0m[[0minfo[0m] [0m246251835[0m
-[0m[[0minfo[0m] [0m278207305[0m
-[0m[[0minfo[0m] [0m255190842[0m
-[0m[[0minfo[0m] [0m291894843[0m
-[0m[[0minfo[0m] [0m333856490[0m
-[0m[[0minfo[0m] [0m251834523[0m
-[0m[[0minfo[0m] [0m245242947[0m
-[0m[[0minfo[0m] [0m267022417[0m
-[0m[[0minfo[0m] [0m264673875[0m
-[0m[[0minfo[0m] [0m257913248[0m
-[0m[[0minfo[0m] [0m1375131768[0m
-[0m[[0minfo[0m] [0m251379158[0m
-[0m[[0minfo[0m] [0m269508298[0m
-[0m[[0minfo[0m] [0m1613631244[0m
-[0m[[0minfo[0m] [0m11023195[0m
-[0m[[0minfo[0m] [0m267144437[0m
-[0m[[0minfo[0m] [0m333541176[0m
-[0m[[0minfo[0m] [0m2157381934[0m
-[0m[[0minfo[0m] [0m250598138[0m
-[0m[[0minfo[0m] [0m1604018988[0m
-[0m[[0minfo[0m] [0m384123364[0m
-[0m[[0minfo[0m] [0m305728393[0m
-[0m[[0minfo[0m] [0m1631641488[0m
-[0m[[0minfo[0m] [0m29554160[0m
-[0m[[0minfo[0m] [0m259087359[0m
-[0m[[0minfo[0m] [0m361228545[0m
-[0m[[0minfo[0m] [0m2084384326[0m
-[0m[[0minfo[0m] [0m54582922[0m
-[0m[[0minfo[0m] [0m267029603[0m
-[0m[[0minfo[0m] [0m228531559[0m
-[0m[[0minfo[0m] [0m253894314[0m
-[0m[[0minfo[0m] [0m345165016[0m
-[0m[[0minfo[0m] [0m324570853[0m
-[0m[[0minfo[0m] [0m368010990[0m
-[0m[[0minfo[0m] [0m1342895867[0m
-[0m[[0minfo[0m] [0m1129302741[0m
-[0m[[0minfo[0m] [0m264334162[0m
-[0m[[0minfo[0m] [0m1432658149[0m
-[0m[[0minfo[0m] [0m231500758[0m
-[0m[[0minfo[0m] [0m271314528[0m
-[0m[[0minfo[0m] [0m245941114[0m
-[0m[[0minfo[0m] [0m245404510[0m
-[0m[[0minfo[0m] [0m278292596[0m
-[0m[[0minfo[0m] [0m8079824[0m
-[0m[[0minfo[0m] [0mfile saved at: /Users/administrateur/OpenData/graph_toulouse/model1.txt[0m
+[0m[[0minfo[0m] [0m[FSPEX]  OSM XML parsing complete. (took 5 390 ms)[0m
+[0m[[0minfo[0m] [0mgraph with: 72592 nodes and 95226 edges.[0m
+[0m[[31merror[0m] [0mjava.lang.OutOfMemoryError: Java heap space[0m
+[0m[[31merror[0m] [0m	at scala.collection.mutable.ArrayBuilder$ofDouble.mkArray(ArrayBuilder.scala:512)[0m
+[0m[[31merror[0m] [0m	at scala.collection.mutable.ArrayBuilder$ofDouble.resize(ArrayBuilder.scala:518)[0m
+[0m[[31merror[0m] [0m	at scala.collection.mutable.ArrayBuilder$ofDouble.sizeHint(ArrayBuilder.scala:523)[0m
+[0m[[31merror[0m] [0m	at scala.Array$.fill(Array.scala:264)[0m
+[0m[[31merror[0m] [0m	at scala.Array$$anonfun$fill$1.apply(Array.scala:281)[0m
+[0m[[31merror[0m] [0m	at scala.Array$$anonfun$fill$1.apply(Array.scala:281)[0m
+[0m[[31merror[0m] [0m	at scala.Array$.tabulate(Array.scala:331)[0m
+[0m[[31merror[0m] [0m	at scala.Array$.fill(Array.scala:281)[0m
+[0m[[31merror[0m] [0m	at laas.fspex.spp.FloydWarshall.compute(FloydWarshall.scala:44)[0m
+[0m[[31merror[0m] [0m	at laas.fspex.parser.OsmParser$.vrp(OsmParser.scala:503)[0m
+[0m[[31merror[0m] [0m	at laas.fspex.Main$$anonfun$1.apply$mcV$sp(Main.scala:38)[0m
+[0m[[31merror[0m] [0m	at laas.fspex.Main$.main(Main.scala:32)[0m
+[0m[[31merror[0m] [0m	at laas.fspex.Main.main(Main.scala)[0m
+[0m[[31merror[0m] [0m	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)[0m
+[0m[[31merror[0m] [0m	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)[0m
+[0m[[31merror[0m] [0m	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)[0m
+[0m[[31merror[0m] [0m	at java.lang.reflect.Method.invoke(Method.java:606)[0m
+[0m[[31merror[0m] [0m	at scala.tools.nsc.util.ScalaClassLoader$$anonfun$run$1.apply(ScalaClassLoader.scala:71)[0m
+[0m[[31merror[0m] [0m	at scala.tools.nsc.util.ScalaClassLoader$class.asContext(ScalaClassLoader.scala:31)[0m
+[0m[[31merror[0m] [0m	at scala.tools.nsc.util.ScalaClassLoader$URLClassLoader.asContext(ScalaClassLoader.scala:139)[0m
+[0m[[31merror[0m] [0m	at scala.tools.nsc.util.ScalaClassLoader$class.run(ScalaClassLoader.scala:71)[0m
+[0m[[31merror[0m] [0m	at scala.tools.nsc.util.ScalaClassLoader$URLClassLoader.run(ScalaClassLoader.scala:139)[0m
+[0m[[31merror[0m] [0m	at scala.tools.nsc.CommonRunner$class.run(ObjectRunner.scala:28)[0m
+[0m[[31merror[0m] [0m	at scala.tools.nsc.ObjectRunner$.run(ObjectRunner.scala:45)[0m
+[0m[[31merror[0m] [0m	at scala.tools.nsc.CommonRunner$class.runAndCatch(ObjectRunner.scala:35)[0m
+[0m[[31merror[0m] [0m	at scala.tools.nsc.ObjectRunner$.runAndCatch(ObjectRunner.scala:45)[0m
+[0m[[31merror[0m] [0m	at scala.tools.nsc.MainGenericRunner.runTarget$1(MainGenericRunner.scala:74)[0m
+[0m[[31merror[0m] [0m	at scala.tools.nsc.MainGenericRunner.process(MainGenericRunner.scala:96)[0m
+[0m[[31merror[0m] [0m	at scala.tools.nsc.MainGenericRunner$.main(MainGenericRunner.scala:105)[0m
+[0m[[31merror[0m] [0m	at scala.tools.nsc.MainGenericRunner.main(MainGenericRunner.scala)[0m
+java.lang.RuntimeException: Nonzero exit code returned from runner: 1
+	at scala.sys.package$.error(package.scala:27)
+	at sbt.BuildCommon$$anonfun$toError$1.apply(Defaults.scala:1340)
+	at sbt.BuildCommon$$anonfun$toError$1.apply(Defaults.scala:1340)
+	at scala.Option.foreach(Option.scala:197)
+	at sbt.BuildCommon$class.toError(Defaults.scala:1340)
+	at sbt.Defaults$.toError(Defaults.scala:34)
+	at sbt.Defaults$$anonfun$runTask$1$$anonfun$apply$27.apply(Defaults.scala:519)
+	at sbt.Defaults$$anonfun$runTask$1$$anonfun$apply$27.apply(Defaults.scala:517)
+	at sbt.Scoped$$anonfun$hf5$1.apply(Structure.scala:581)
+	at sbt.Scoped$$anonfun$hf5$1.apply(Structure.scala:581)
+	at scala.Function1$$anonfun$compose$1.apply(Function1.scala:49)
+	at sbt.Scoped$Reduced$$anonfun$combine$1$$anonfun$apply$12.apply(Structure.scala:311)
+	at sbt.Scoped$Reduced$$anonfun$combine$1$$anonfun$apply$12.apply(Structure.scala:311)
+	at sbt.$tilde$greater$$anonfun$$u2219$1.apply(TypeFunctions.scala:40)
+	at sbt.std.Transform$$anon$5.work(System.scala:71)
+	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:232)
+	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:232)
+	at sbt.ErrorHandling$.wideConvert(ErrorHandling.scala:18)
+	at sbt.Execute.work(Execute.scala:238)
+	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:232)
+	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:232)
+	at sbt.ConcurrentRestrictions$$anon$4$$anonfun$1.apply(ConcurrentRestrictions.scala:159)
+	at sbt.CompletionService$$anon$2.call(CompletionService.scala:30)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[0m[[31merror[0m] [0m(compile:[31mrun[0m) Nonzero exit code returned from runner: 1[0m

@@ -7,7 +7,7 @@ package laas.fspex.parser
 
 
 import laas.fspex.model._
-import laas.fspex.spp.Dijkstra
+import laas.fspex.spp.{FloydWarshall, Dijkstra}
 import laas.fspex.utils._
 
 import scala.io.Source
@@ -435,9 +435,9 @@ def vrp(osmPath:String, save:String,numb:Int)= {
 
   writer.close()*/
 
+//------------------first-------------------------------
 
-
-  var compt=0
+ /* var compt=0
   while(compt==0){
 
     val (a)=(graph.nodes(Random.nextInt(graph.nodes.length)))
@@ -484,7 +484,7 @@ def vrp(osmPath:String, save:String,numb:Int)= {
       }
       }
       writer.close()
-      println("file saved at: "+ save)
+      //println(distance)
 
       compt+=1
     }
@@ -493,9 +493,17 @@ def vrp(osmPath:String, save:String,numb:Int)= {
 
 
   }
+  //------------------first-------------------------------
 
 
+*/
 
+  val fw=new FloydWarshall(graph)
+
+  val (map,reversed_map,dist)=fw.compute()
+
+
+  println(dist(12)(34))
 
 
 

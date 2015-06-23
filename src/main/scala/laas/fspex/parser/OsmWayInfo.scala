@@ -169,7 +169,7 @@ object WayInfo {
       case "living_street" => CarOnly(wayId,tags)
       case "residential" => CarOnly(wayId,tags)
       case "unclassified" => CarOnly(wayId,tags)
-      //case "track" => CarOnly(wayId,tags)
+      case "track" => CarOnly(wayId,tags)
       case "road" => CarOnly(wayId,tags)
 
 
