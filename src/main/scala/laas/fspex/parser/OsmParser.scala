@@ -500,10 +500,16 @@ def vrp(osmPath:String, save:String,numb:Int)= {
 
   val fw=new FloydWarshall(graph)
 
-  val (map,reversed_map,dist)=fw.compute()
+  val (map,reversed_map,dist)=fw.compute(numb)
 
 
-  println(dist(12)(34))
+  //println(dist(1)(4))
+
+  for(i<-0 to numb-1){
+    for(j<-0 to numb-1){
+      println("distance "+ i +" --- " + j +" :"+dist(i)(j))
+    }
+  }
 
 
 
